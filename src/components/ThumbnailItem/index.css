@@ -1,0 +1,44 @@
+/* Write your code here. */
+.li-items {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.thumb-images {
+  width: 65px;
+  height: 65px;
+  margin-left: 10px;
+  opacity: 0.5;
+}
+
+.visible-thubnail {
+  opacity: 1;
+  border-radius: 50px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  border: 0px solid;
+}
+
+@media (max-width: 768px) {
+  .thumb-images {
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+    opacity: 0.5;
+  }
+  .visible-thubnail {
+    opacity: 1;
+    border-radius: 50px;
+  }
+  button {
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    border: 0px solid;
+  }
+}
